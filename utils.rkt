@@ -8,19 +8,19 @@
 ;;;   Code from the sample lab.
 
 ;;; Procedure:
-;;;   nums
+;;;   first-n-numbers
 ;;; Parameters:
 ;;;   n, a positive integer
 ;;; Purpose:
 ;;;   Create a list of the integers [1 ... n].
 ;;; Produces:
-;;;   list-of-nums, a list of integers
+;;;   list-of-first-n-numbers, a list of integers
 ;;; Preconditions:
 ;;;   [No additional]
 ;;; Postconditions:
-;;;   (length list-of-nums) == n
-;;;   (list-ref list-of-nums i) = i+1
+;;;   (length list-of-first-n-numbers) == n
+;;;   (list-ref list-of-first-n-numbers i) = i+1
 ;;;     for all i, 0 &lt;= i &lt; n.
-(define nums
+(define first-n-numbers
   (lambda (n)
     (cdr (iota (+ n 1)))))

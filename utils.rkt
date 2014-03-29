@@ -1,7 +1,7 @@
 #lang racket
 (require gigls/unsafe)
 ;;; File:
-;;;   utils.rkt
+;;;   git-example/utils.rkt
 ;;; Author:
 ;;;   Samuel A. Rebelsky
 ;;; Summary:

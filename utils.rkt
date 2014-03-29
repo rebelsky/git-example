@@ -1,5 +1,12 @@
 #lang racket
 (require gigls/unsafe)
+;;; File:
+;;;   utils.rkt
+;;; Author:
+;;;   Samuel A. Rebelsky
+;;; Summary:
+;;;   Code from the sample lab.
+
 ;;; Procedure:
 ;;;   nums
 ;;; Parameters:

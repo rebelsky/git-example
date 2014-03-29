@@ -8,7 +8,7 @@
 ;;;   Code from the sample lab.
 
 ;;; Procedure:
-;;;   first-n-numbers
+;;;   nums
 ;;; Parameters:
 ;;;   n, a positive integer
 ;;; Purpose:
@@ -21,6 +21,6 @@
 ;;;   (length list-of-nums) == n
 ;;;   (list-ref list-of-nums i) = i+1
 ;;;     for all i, 0 &lt;= i &lt; n.
-(define first-n-numbers
+(define nums
   (lambda (n)
     (cdr (iota (+ n 1)))))
